@@ -11,7 +11,7 @@ Build and deploy the artifact with the following commands:
 mvn package && java -jar ./target/mail-thorntail.jar
 ```
 
-And trigger e-mail sending with a POST request to 127.0.0.1/api/mail
+And trigger e-mail sending with a POST request to http://127.0.0.1:8080/api/mail
 
 ```json
 {
