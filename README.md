@@ -3,7 +3,7 @@
 This example is a minimal implementation for sending e-mail messages with Thorntail 2.0.0.Final and its [mail fraction](http://docs.wildfly-swarm.io/2.0.0.Final/#_mail).
 
 
-To run this application you must have a SMTP server (e.g. [FakeSMTP](https://github.com/Nilhcem/FakeSMTP)) running at port 25 on localhost.
+To run this application you must have an SMTP server (e.g. [FakeSMTP](https://github.com/Nilhcem/FakeSMTP)) running at port 27015 on localhost.
 
 Build and deploy the artifact with the following commands:
 

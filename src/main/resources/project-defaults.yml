@@ -2,11 +2,8 @@ swarm:
   deployment:
     mail.war:
       jaxrs:
-        application-path: "api"
+        application-path: 'api'
   mail: # see https://reference.wildfly-swarm.io/fractions/mail.html
     smtp:
-      host: "127.0.0.1"
-      port:  "25"
-  mail-sessions:
-    mail.war:
-      jndi-name: java:thorntail/mail/whatever
+      host: '127.0.0.1'
+      port: 27015

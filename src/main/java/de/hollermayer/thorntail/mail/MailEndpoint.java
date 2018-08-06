@@ -18,7 +18,7 @@ import javax.ws.rs.core.Response;
 @Stateless
 public class MailEndpoint {
 
-    @Resource(name = "java:thorntail/mail/whatever")
+    @Resource(name = "java:jboss/mail/default")
     private Session session;
 
     @POST
